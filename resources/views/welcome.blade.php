@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-    <h1>WELCOME PAGE LET'S GO</h1>
-    <p>
-    <a href='/contact'>Contact</a> us to learn more.
-    </p>
-</body>
-</html>
+@extends('layout')
+
+@section('title', 'Home')
+
+@section('content')
+    <h1>My Welcome page</h1>
+@endsection
