@@ -3,5 +3,9 @@
 @section('title', 'Home')
 
 @section('content')
-    <h1>My Welcome page</h1>
+    <h1>My {{ $foo }} page</h1>
+
+    @foreach($tasks as $task)
+        <li>{{ $task }}</li>
+    @endforeach
 @endsection
