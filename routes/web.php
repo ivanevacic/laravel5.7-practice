@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//  New Route with it's view ->resources/views/...
+Route::get('/contact', function () {
+    return view('contact');
+});
