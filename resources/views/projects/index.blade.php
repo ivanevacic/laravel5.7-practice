@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>@yield('title', 'Laravel-Development')</title>
+    <title></title>
 </head>
 <body>
     <h1>Projects</h1>
